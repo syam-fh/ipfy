@@ -1,6 +1,6 @@
 {
   "name": "ipfy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A beautiful and interactive Node.js CLI utility to quickly fetch your local and public IPv4 addresses.",
   "bin": {
     "ipfy": "./bin/index.js"
