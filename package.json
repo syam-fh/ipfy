@@ -1,0 +1,36 @@
+{
+  "name": "ipfy",
+  "version": "1.0.0",
+  "description": "A beautiful and interactive Node.js CLI utility to quickly fetch your local and public IPv4 addresses.",
+  "bin": {
+    "ipfy": "./bin/index.js"
+  },
+  "files": [
+    "bin"
+  ],
+  "scripts": {
+    "start": "node bin/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ip",
+    "ipv4",
+    "local-ip",
+    "public-ip",
+    "cli",
+    "nodejs",
+    "network",
+    "interactive",
+    "terminal"
+  ],
+  "author": "Syam Farijal",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^8.0.1",
+    "chalk": "^5.6.2"
+  }
+}
